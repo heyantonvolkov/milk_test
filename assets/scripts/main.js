@@ -61,6 +61,8 @@ function showResult() {
 	document.getElementById('js-resultTitle').innerText = result.title;
 	document.getElementById('js-resultDescription').innerText = result.desc;
 	document.getElementById('js-resultImage').src = result.image;
+
+	console.log('https://letsinvade.github.io/milk_test/' + result.image);
 	
 	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
 		{
