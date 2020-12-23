@@ -66,7 +66,7 @@ function showResult() {
 		{
 			url: 'тут будет путь до страницы на github pages',
 			title: result.title,
-			image: result.image,
+			image: 'https://letsinvade.github.io/milk_test/' + result.image,
 			noparse: true
 		},
 		{
