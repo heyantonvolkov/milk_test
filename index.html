@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Какой ты молочный продукт | пройти тест</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Пройди увлекательный тест, чтобы лучше понять, кто скрывается внутри тебя на самом деле. Всю жизнь тебе врали!">
+
+	<meta name="og:title" content="Какой ты молочный продукт | пройти тест">
+	<meta name="og:description" content="Пройди увлекательный тест, чтобы лучше понять, кто скрывается внутри тебя на самом деле. Всю жизнь тебе врали!">
+
+	<meta name="og:url" content="ссылка на гитхаб pages">
+	<meta name="og:image" content="https://cs10.pikabu.ru/post_img/2018/11/12/5/154200300112484347.jpg">
+	<meta name="og:type" content="website">
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/content.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/question.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/result.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/hello.css">
+
+	<script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="content" id="js-content">
+			<div class="hello" id="js-hello">
+				<h1>Добро пожаловать на тест!!</h1>
+				<p>Узнай, какой ты молочный продукт! Это важно и изменит твою жизнь!</p>
+				<button class="button" onclick="startTest()">Поехали</button>
+			</div>
+
+
+			<div class="question -hidden" id="js-question">
+				<div class="question__header">
+					<h1 class="question__text" id="js-questionText">Какой ты молочный продукт</h1>
+					<div class="question__count">
+						<span class="question__number" id="js-questionNumber"></span><!--
+						-->/<!--
+						--><span id="js-totalQuestionCount"></span>
+					</div>
+				</div>
+
+				<ul class="question__answers" id="js-answers"></ul>
+			</div>
+
+			<div class="result -hidden" id="js-result">
+				<h2 class="result__text" id="js-resultTitle"></h2>
+				<img src="" id="js-resultImage" class="result__image">
+
+				<p class="result__description" id="js-resultDescription"></p>
+				<div class="result__share" id="js-resultShare"></div>
+				<button class="result__restart" onclick="restartTest()">Пройти заново</button>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="./assets/scripts/resultData.js"></script>
+	<script type="text/javascript" src="./assets/scripts/questions.js"></script>
+	<script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+</html>

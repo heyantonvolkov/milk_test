@@ -1,0 +1,7 @@
+.result {
+	display: block;
+}
+
+.result.-hidden {
+	display: none;
+}

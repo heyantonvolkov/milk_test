@@ -1,0 +1,7 @@
+.hello {
+	display: block;
+}
+
+.hello.-hidden {
+	display: none;
+}
